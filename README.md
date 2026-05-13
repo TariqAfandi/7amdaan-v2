@@ -61,7 +61,7 @@ npm install
 3. **Run development server:**
 
 ```bash
-   npm run dev
+npm run dev
 
 ```
 
@@ -95,7 +95,3 @@ To maintain a high-tech experience despite heavy video assets, the project utili
 ---
 
 **© 2026 7AMDAAN Autonomous Systems. All protocols active.**
-
-```
-
-```
