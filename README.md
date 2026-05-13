@@ -6,7 +6,7 @@
 
 7amdaan-v2 is a high-performance web interface designed to showcase the next generation of advertising technology. Built with a "Terminal Green" aesthetic, the platform highlights the integration of AI-driven targeting, voice interaction, and cloud-based fleet management.
 
-**Live URL:** [https://7amdaanio.netlify.app]()
+**Live URL:** [https://7amdaanio.netlify.app](https://7amdaanio.netlify.app/)
 
 ---
 
