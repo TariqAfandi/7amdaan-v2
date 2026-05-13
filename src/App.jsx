@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import Navbar from './components/Navbar'
 import Cursor from './components/Cursor'
 import Hero from './sections/Hero'
+import About from './sections/About'
 import Clients from './sections/Clients'
 import Gallery from './sections/Gallery'
 import Contact from './sections/Contact'
@@ -54,6 +55,7 @@ function App() {
 
       {/* Each component is a full-height or large-content section */}
       <section id="home"><Hero scrollToSection={scrollToSection} /></section>
+      <section id="about"><About /></section>
       <section id="clients"><Clients /></section>
       <section id="gallery"><Gallery /></section>
       <section id="contact"><Contact /></section>
@@ -69,6 +71,21 @@ function App() {
             <p className="text-white/20 text-[10px] tracking-[0.3em] uppercase text-center">
               © 2026 Autonomous AdTech Systems
             </p>
+          </div>
+
+          <div className="flex flex-col items-center gap-2">
+            <a
+              href="tel:+97337211721"
+              className="text-white/60 hover:text-robot-accent transition-colors font-mono text-sm tracking-widest"
+            >
+              +973 3721 1721
+            </a>
+            <a
+              href="mailto:hello@7amdaan.io"
+              className="text-white/30 hover:text-robot-accent transition-colors font-mono text-[10px] uppercase tracking-[0.2em]"
+            >
+              hello@7amdaan.io
+            </a>
           </div>
 
           {/* Right Side: Social Icons */}

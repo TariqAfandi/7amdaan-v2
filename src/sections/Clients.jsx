@@ -27,8 +27,8 @@ const Clients = () => {
                     transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
                     className="flex flex-nowrap gap-20 items-center whitespace-nowrap"
                 >
-                    {/* Triple the list to create the loop effect */}
-                    {[...clientLogos, ...clientLogos, ...clientLogos].map((logo, index) => (
+                    {/* Sixfold the list to create the loop effect */}
+                    {[...clientLogos, ...clientLogos, ...clientLogos, ...clientLogos, ...clientLogos, ...clientLogos].map((logo, index) => (
                         <img
                             key={index}
                             src={logo}

@@ -70,8 +70,8 @@ const Gallery = () => {
                 transition={{ duration: 0.6 }}
                 className="mb-16"
             >
-                <h2 className="text-4xl font-black tracking-tighter mb-4">CATALOG OF FEATURES</h2>
-                <div className="h-1 w-45 bg-robot-accent" />
+                <h2 className="text-4xl font-black tracking-tighter mb-4">CATALOGUE OF FEATURES</h2>
+                <div className="h-1 w-57 bg-robot-accent" />
             </motion.div>
 
             <motion.div
@@ -96,6 +96,7 @@ const Gallery = () => {
                                     loop
                                     muted
                                     playsInline
+                                    preload="metadata"
                                     className="w-full h-full object-cover opacity-50 group-hover:opacity-80 transition-opacity duration-500"
                                 />
                             ) : (

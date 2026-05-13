@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Bot, Cpu, FileText, Camera } from 'lucide-react';
+import { Bot, Cpu, FileText, Camera, Zap } from 'lucide-react';
 
 const navItems = [
     { name: 'Home', href: 'home', icon: <Cpu size={16} /> },
+    { name: 'About', href: 'about', icon: <Zap size={16} /> },
     { name: 'Clients', href: 'clients', icon: <Bot size={16} /> },
     { name: 'Gallery', href: 'gallery', icon: <Camera size={16} /> },
     { name: 'Contact', href: 'contact', icon: <FileText size={16} /> },
